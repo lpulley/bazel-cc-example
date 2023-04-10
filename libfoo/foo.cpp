@@ -1,9 +1,11 @@
 #include <cstdio>
-#include "fooComponent.h"
-#include "libbar/barHelper.h"
+#include "libnumber/numberCreator.h"
+#include "libnumber/numberHelper.h"
+#include "libnumber/containers/numberContainer.h"
 
 int main() {
-    fooComponent_t fooComponent{};
-    barHelper_t barHelper{fooComponent.createNumber()};
-    std::printf("Bar helper has number %d\n", barHelper.getNumber());
+    numberCreator_t numberCreator{};
+    numberContainer_t number = numberCreator.createNumber();
+    numberHelper_t numberHelper{number};
+    std::printf("Integer is %d\n", numberHelper.getInteger());
 }
