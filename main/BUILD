@@ -1,6 +1,6 @@
 cc_binary(
-    name = "foo",
-    srcs = ["foo.cpp"],
+    name = "main",
+    srcs = ["main.cpp"],
     deps = [
         "//libnumber:numberCreator",
         "//libnumber:numberHelper",
