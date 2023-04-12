@@ -5,4 +5,5 @@ cc_binary(
         "//libnumber:numberCreator",
         "//libnumber:numberHelper",
     ],
+    linkstatic = False,
 )
