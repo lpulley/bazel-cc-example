@@ -22,3 +22,23 @@ cc_library(
     ],
     visibility = ["//visibility:public"],
 )
+
+cc_test(
+    name = "test_numberCreator",
+    size = "small",
+    srcs = ["test_numberCreator.cpp"],
+    deps = [
+        ":numberCreator",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
+    name = "test_numberHelper",
+    size = "small",
+    srcs = ["test_numberHelper.cpp"],
+    deps = [
+        ":numberHelper",
+        "@googletest//:gtest_main",
+    ],
+)
