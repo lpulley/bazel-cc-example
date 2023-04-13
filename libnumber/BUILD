@@ -34,6 +34,7 @@ cc_test(
     srcs = ["test_numberHelper.cpp"],
     deps = [
         ":numberHelper",
+        "//libnumber/containers:numberContainer",
         "@googletest//:gtest_main",
     ],
 )
