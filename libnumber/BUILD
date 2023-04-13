@@ -3,7 +3,7 @@ cc_library(
     srcs = ["numberCreator.cpp"],
     hdrs = ["numberCreator.h"],
     deps = [
-        "containers:numberContainer",
+        "//libnumber/containers:numberContainer",
     ],
     visibility = ["//visibility:public"],
 )
@@ -13,7 +13,7 @@ cc_library(
     srcs = ["numberHelper.cpp"],
     hdrs = ["numberHelper.h"],
     deps = [
-        "containers:numberContainer",
+        "//libnumber/containers:numberContainer",
     ],
     visibility = ["//visibility:public"],
 )
