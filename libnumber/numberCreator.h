@@ -1,7 +1,7 @@
 #ifndef LIBNUMBER_NUMBERCREATOR_H
 #define LIBNUMBER_NUMBERCREATOR_H
 
-#include "containers/numberContainer.h"
+#include "libnumber/containers/numberContainer.h"
 
 class numberCreator_t {
    public:

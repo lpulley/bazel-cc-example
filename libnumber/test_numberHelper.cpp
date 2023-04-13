@@ -1,6 +1,6 @@
 #include "gtest/gtest.h"
-#include "containers/numberContainer.h"
-#include "numberHelper.h"
+#include "libnumber/containers/numberContainer.h"
+#include "libnumber/numberHelper.h"
 
 TEST(NumberHelperTest, NumberHelping) {
     numberContainer_t numberContainer{5};

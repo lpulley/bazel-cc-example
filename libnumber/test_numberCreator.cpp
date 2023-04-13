@@ -1,5 +1,5 @@
 #include "gtest/gtest.h"
-#include "numberCreator.h"
+#include "libnumber/numberCreator.h"
 
 TEST(NumberCreatorTest, NumberCreation) {
     numberCreator_t numberCreator{};
