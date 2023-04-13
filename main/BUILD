@@ -4,6 +4,7 @@ cc_binary(
     deps = [
         "//libnumber:numberCreator",
         "//libnumber:numberHelper",
+        "//libnumber/containers:numberContainer",
     ],
     linkstatic = False,
 )
