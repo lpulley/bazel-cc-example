@@ -1,5 +1,5 @@
-#ifndef NUMBERCREATOR_H
-#define NUMBERCREATOR_H
+#ifndef LIBNUMBER_NUMBERCREATOR_H
+#define LIBNUMBER_NUMBERCREATOR_H
 
 #include "containers/numberContainer.h"
 

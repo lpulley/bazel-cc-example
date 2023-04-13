@@ -1,5 +1,5 @@
-#ifndef NUMBERCONTAINER_H
-#define NUMBERCONTAINER_H
+#ifndef LIBNUMBER_CONTAINERS_NUMBERCONTAINER_H
+#define LIBNUMBER_CONTAINERS_NUMBERCONTAINER_H
 
 struct numberContainer_t {
     numberContainer_t(int x) : number(x) {}
